@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top__content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.top_heading {
+  width: 504px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  margin-bottom: 32px;
+}
+
+.header_third {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.header_second {
+  font-weight: 500;
+  font-size: 44px;
+}
+
+.header_fourth {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  margin-bottom: 14px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.menu {
+  padding-top: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+input {
+  text-indent: 5px;
+}
+
+.footer {
+  margin-top: 100px;
+  background-color: #316099;
+  padding: 91px 0 64px;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 96px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__text {
+  width: 495px;
+}
+
+.header_footer {
+  width: 340px;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.footer_text {
+  color: #FFFFFF;
+}
+
+.footer__btn {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  /* margin: 165px 0px 170px; */
+  background: #5A98D0;
+  text-decoration: none;
+  padding: 15px 80px;
+}
+
+hr {
+  opacity: 0.4;
+}
+
+.footer_info {
+  padding-top: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 64px;
+}
+
+.footer_info li {
+  padding-left: 19px;
+  width: 316px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  list-style-type: decimal;
+}
+
+.copy_text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .footer {
+    padding: 47px 0 64px;
+  }
+  .footer__top {
+    padding: 0 120px 64px;
+  }
+  .footer__btn {
+    padding: 3px 30px;
+  }
+  .footer_bottom {
+    padding: 0 124px;
+  }
+  .footer_info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer_info li {
+    padding-left: 37px;
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 667px) {
+  .menu {
+    padding-top: 24px;
+  }
+  .top_heading {
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .what-we-do {
+    padding-top: 48px;
+  }
+  .header_third {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .footer {
+    padding: 18px 0 32px;
+  }
+  .footer .container {
+    padding: 0 16px;
+  }
+  .footer__top {
+    padding: 0 0 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header_footer {
+    text-align: center;
+    width: 100%;
+  }
+  .footer__text {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__btn {
+    margin-top: 40px;
+  }
+  .footer_bottom {
+    padding: 0 16px;
+  }
+  .footer_info {
+    padding: 32px 0;
+  }
+  .footer_info li {
+    padding: 0;
+    padding-left: 23px;
+    width: 100%;
+  }
+  .copy_text {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=mainStyle.css.map */

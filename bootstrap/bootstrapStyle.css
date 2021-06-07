@@ -1,0 +1,40 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion {
+    width: 70%;
+}
+
+.accordion-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion__img{
+    height: 100%;
+}
+
+.accordion__text-left{
+    padding-left: 15px;
+    width: 50%;
+}
+
+.accordion__text-right{
+    padding-right: 15px;
+    width: 50%;
+}
+
+.scrollspy-example {
+    height: 200px;
+    margin-top: .5rem;
+    overflow: auto;
+}
+
+.form {
+    padding-top: 100px;
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
