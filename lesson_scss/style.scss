@@ -1,0 +1,55 @@
+$width-site: 1300px;
+$color-block: #777;
+$border-width: 1px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    background-color: $color-block; //bgc
+    width: $width-site;
+    margin: 0 auto;
+}
+
+.menu {
+    width: $width-site;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    // & - взять имя из блока выше. в данном случаи menu
+    &__list {
+        list-style-type: none; //lst
+    }
+
+    &__link {
+        text-decoration: none; //td
+        display: block;
+        padding: 16px 32px;
+        font-size: 24px;
+    }
+}
+
+.content {
+    padding: 50px 0;
+    width: $width-site;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        width: $width-site / 3 - 2 * $border-width; //2px на рамку
+        height: 250px;
+        border: $border-width solid #000; //bd
+    }
+}
+
+.footer {
+    height: 100px;
+    background-color: $color-block - #222; //bgc
+    width: $width-site;
+    margin: 0 auto;
+}
